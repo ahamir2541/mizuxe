@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 65px;
+}
+/* navbar */
+.logo img{
+    width: 40px;
+}
+.logo h3{
+    font-size: 20px;
+    color: #111;
+}
+.navbar{
+    background-color: #fff;
+    color: #111111;
+    box-shadow:1px 1px 2px #6BAFB7;
+    opacity: 0.7;
+}
+.navbar .nav-link{
+    color: #111111 !important;
+}
+.navbar .nav-link:hover{
+    color: #6BAFB7 !important;
+}
+/* header */
+#header{
+    background:linear-gradient(rgba(107, 175, 183, 0.719), rgba(107, 175, 183, 0.685)), url(/img/mountains.jpg);
+    background-position: top top;
+    background-size: cover;
+    color: #fff;
+    min-height: 80vh;
+}
+.book{
+    height: 500px;
+}
+/* about_book */
+.about_book i{
+    font-size: 10px;
+    padding: 3px;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+}
+.about_book h5{
+    font-size: 15px;
+}
+/* authors */
+#authors .card img{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+#authors .card i{
+    color: #6BAFB7;
+    font-size: 22px;
+}
+#authors .card:hover{
+    background-color: #3292A6;
+    color: #fff;
+}
+#authors .card:hover i{
+    color: #fff;
+}
+/* Contact */
+#Contact img{
+    width: 200px;
+    margin-top: 100px;
+}
+/* footer */
+#footer a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer a:hover{
+    text-decoration: underline;
+    color: #6BAFB7;
+}
+
